@@ -40,14 +40,14 @@ h1 {
 	text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
 
-h1::after { /* This is the underline */
+h1:after { /* This is the underline */
 	display: block;
 	content: "";
 	height: 2px;
 	width: 150px;
 	background: #E91C1C;
 	margin: 5px auto 40px;
-	box shadow: 5px 2px 3px rgba(0,0,0.5);
+	box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
 h2 {
@@ -60,7 +60,7 @@ h3 {
 	padding-bottom: 20px;
 }
 
-h4: {
+h4 {
 	padding-top: 25px;
 	line-height: 40px;
 	padding-bottom: 0px;
@@ -156,7 +156,7 @@ HOME SECTION STYLES
 	width: 100%;
 	display: block;
 	height: auto;
-	padding-top: 350ps; /* This spacer before the Main title Logo */
+	padding-top: 350px; /* This spacer before the Main title Logo */
 	padding-bottom: 500px; /* This is spacer after the Main title Logo */
 	color: #fff;
 }
@@ -167,7 +167,7 @@ HOME SECTION STYLES
 	color: #fff;
 	letter-spacing: 5pt;
 	word-spacing: 21pt;
-	font-size: 4.5cm;
+	font-size: 4.5em;
 	text-align: left;
 	font-family: impact, sans serif;
 	line-height: 2;
@@ -179,7 +179,7 @@ HOME SECTION STYLES
 .head-sub-main {
 	font-size: 23px ;
 	font-weight: 500;
-	padding: 5px 20px 20px 20px;
+	padding: 50px 20px 10px 20px;
 	text-transform: uppercase;
 }
 
@@ -196,7 +196,7 @@ Contact STYLES
 =================================*/
 .flex-container: {
 	display: -webkit-flex;
-	display: felx;
+	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
 	border-radius: 8px;
@@ -254,7 +254,7 @@ Contact STYLES
 	color: #8D8E8F;
 	padding: 12px 12px;
 	width: 70%;
-	border: 1px, solid #808080;
+	border: 1px solid #808080;
 	margin: 2% auto;
 	border-radius: 7px;
 	background: rgb (227,222,222);
@@ -272,7 +272,7 @@ Contact STYLES
 	border-top: 1px solid #090B0D;
 	border-right: 2px solid #424549;
 	border-bottom: 2px solid #424549;
-	border-left: 1px solid #090B0D
+	border-left: 1px solid #090B0D;
 	margin: 10px 1em;
 	border-radius: 7px;
 	background: #13161B;
@@ -321,14 +321,14 @@ Contact STYLES
 	font-size: 18px;
 	transition: border-color 0.3s color 0.3s background-color 0.3s;
 	border-radius: 7px;
-	background color: #797a7b;
-	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+	background-color: #797a7b;
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 .submit input[type="submit"]:hover {
 	color: #000;
 	background-color: #8D8F8F;
-	box-shadow: inset 1px 2 px 15px 0 rgba(0,0,0,0.5);
+	box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 }
 
 /*========================================

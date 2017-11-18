@@ -1,7 +1,7 @@
 /*==============================
 MENU SECTION ANIMATION
 ================================*/
-.MENU {
+.menu {
 	color: #f00;
 	font: bold 12px/18px sans-serif;
 	text-align: center;
@@ -47,11 +47,11 @@ GALLERY SECTION ANIMATION
 	border-radius: 8px;
 	padding:1px;
 	border:1px solid #021a40;
-	background color: #ff0;
+	background-color: #ff0;
 	box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
 }
 
-.photo-container: {
+.photo-container {
 	text-align: center;
 	margin: 15px auto;
 	width: 300px;
@@ -64,7 +64,7 @@ GALLERY SECTION ANIMATION
 	height: 169px;
 }
 
-.photo-overlay: {
+.photo-overlay {
 	color: #fff;
 	position: absolute;
 	top: 0;
@@ -103,6 +103,6 @@ Photo Overlay Transitions
 	transform-origin: 50% 50%;
 }
 
-.photo.hover img {
+.photo:hover img {
 	transform: scale(1.1);
 }
