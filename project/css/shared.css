@@ -194,7 +194,7 @@ HOME SECTION STYLES
 /*===============================
 Contact STYLES
 =================================*/
-.flex-container: {
+.flex-container {
 	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
