@@ -6,17 +6,17 @@ body {
 	font-weight: bold;
 }	
 	
-	a, a:active, a:link, a:visited {
+a, a:active, a:link, a:visited {
 		color: #deedee0;
 		font-size: 14px;
 		text-decoration: none;
 }
 	
-	a:hover {
+a:hover {
 		color: #fff;
 }
 	
-	.container {
+.container {
 		width: 100%;
 		height: 323px;
 }
@@ -46,7 +46,7 @@ form {
 	border-radius: 0 0 10px 10px;
 }
 
-input [type="text"],
+input[type="text"],
 input[type="password"] {
 	outline: none;
 	font-size: 20px;
