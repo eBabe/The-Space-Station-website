@@ -7,7 +7,7 @@ body {
 }
 		
 a, a:active, a:link, a:visited {
-		color: #deedee0;
+		color: #dedee0;
 		font-size: 14px;
 		text-decoration: none;
 }
@@ -48,7 +48,7 @@ input[type="text"],
 input[type="password"] {
 	outline: none;
 	font-family: caption;
-	border: 4px double #deedee0;
+	border: 4px double #dedee0;
 	padding: 5px;
 	margin: 5% 0 0 0;
 }
@@ -65,13 +65,13 @@ input[type="password"]:focus {
 	font-weight: bold;
 	text-align: center;
 	border-radius: 25px;
-	background-color: #deedee0;
+	background-color: #dedee0;
 	border: 2px solid #a1a1a1;
 }
 
 .btn:hover {
 	color: #000;
-	background-color: #deedee0;
+	background-color: #dedee0;
 	box-shadow: inset 5px 0 0 #000;
 }
 
